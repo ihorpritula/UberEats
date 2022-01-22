@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-     <link rel="stylesheet" href="UBER.css">
+        <meta charset="UTF8">
+     <link rel="stylesheet" href="UBER.css" type="text/css">
+     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
         <title>Uber Eats</title>
+        <style>
+            * {
+             margin: 0;
+             padding: 0;
+            }
+            </style>
     </head>
     <body>
-<header class="header">
+<header>
+    <div class="order">
     <h1>UberEats</h1>
-    <div>
         <a href="#">Sign in</a>
     </div>
+        <h1>Order food to your door</h1>
+        <div class="input">
+            <input placeholder="Enter delivery address">
+            <select>
+                <option value="Deliver now">Deliver now</option>
+                <option value="">Schedule for later</option>
+            </select>
+            <button>Find food</button>
+        </div>
+        <p><a href="#">Sing in</a> for your recent addresses</p>
 </header>
 <main>
-    <h1>Order food to your door</h1>
-    <div>
-        <input placeholder="Enter delivery address">
-        <select>
-            <option value="Deliver now">Deliver now</option>
-            <option value="">Schedule for later</option>
-        </select>
-        <button>Find food</button>
+    <div class="space"></div>
+    <div class="first">
+<img src="first1.svg">
+<h1>Feed your employees</h1>
+<a href=#>Create a business account</a>
     </div>
-    <p><a href="#">Sing in</a> for your recent addresses</p>
+    <div class="first">
+<img src="first2.svg">
+<h1>Your restaurant, delivered</h1>
+<a href=#>Add your restaurant</a>
+    </div>
+    <div class="first">
+<img src="first3.svg">
+<h1>Deliver with Uber Eats</h1>
+<a href=#>Sign up to deliver</a>
+    </div>
 </main>
     </body>
 </html> 
