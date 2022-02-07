@@ -5,8 +5,8 @@
         <script src="https://kit.fontawesome.com/b0d06dbb68.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="UBER.css" type="text/css">
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
-            <script src="uber__script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="uber__script.js"></script>
         <title>Uber Eats | Food Delivery and Takeout | Order Online from Restaurants Near You</title>
         <style>
             * {
@@ -17,12 +17,11 @@
             </style>
             
     <!-- <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script> -->
-</head>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
     <body>
-
     <div class="header">
-        <header>
-            <div class="order">
+        <header class="order">
+            
                 <section>
                     <img src="hamburger.svg" width="20px" height="30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <img src="ubereats.svg" width="150px" height="30px">
@@ -30,17 +29,31 @@
                 <section>
                     <a class="sign" href="#">Sign in</a>
                 </section>
-            </div>
+            
 
         </header>
         <div class="input">
         <h1 class="orders">Order food to your door</h1>
+        <form class="finally">
+            <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <symbol id="modal-icon-1" viewBox="0 0 32 32">
+                    <path d="M17.5834 5.16602C14.5001 2.08268 9.50008 2.08268 
+                    6.41675 5.16602C3.33341 8.24935 3.33341 13.3327 6.41675 
+                    16.416L12.0001 21.9993L17.5834 16.3327C20.6667 13.3327 
+                    20.6667 8.24935 17.5834 5.16602ZM12.0001 12.416C11.0834 
+                    12.416 10.3334 11.666 10.3334 10.7493C10.3334 9.83268 11.0834 
+                    9.08268 12.0001 9.08268C12.9167 9.08268 13.6667 9.83268 13.6667 
+                    10.7493C13.6667 11.666 12.9167 12.416 12.0001 12.416Z"></path> </svg>
+                    <div class="inter">
             <input class="enter" type="text"  placeholder="Enter delivery address">&nbsp
+            <svg class="modal-icon-1"><use xlink:href="#modal-icon-1"></use></svg>
+        </div>
             <select class="select" style="height: 50px; font-family:Arial, FontAwesome;">
                 <option value="Deliver now"> &#xf017; &nbsp; Deliver now</option>
                     <option value="Schedule for later"> &#xf783; &nbsp; Schedule for later</option>
             </select>&nbsp
             <input class="btn" type="button" onclick="alert" value="Find Food">
+        </form>
         <p class="recent"><a class="blyat" href="#">Sing in</a> for your recent addresses</p>
     </div>
 </div>
@@ -61,10 +74,9 @@
 <h1>Deliver with Uber Eats</h1>
 <a class="blyat" href=#>Sign up to deliver</a>
     </div>
-<div class="beforemap">
-<h1 style="float: left; width: 50%;">Cities near me</h1>
-<a  class="blyat" href="#"><h4 style="float: right;">
-    View all 500+ cities</a></h4>
+<div>
+<h1 class="citiess" style="float: left; width: 50%;">Cities near me</h1>
+<a  class="blyat" href="#" style="float: right;">View all 500+ cities</a>
     </div>
     <div class="map">
     <iframe class="maps" src="https://maps.google.com/maps?width=100%25&amp;height=360&amp;hl=ru&amp;q=39.7837304,-100.445882+(usa)&amp;
@@ -169,11 +181,13 @@
             <a class="information" href="#">Pricing</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="information" href="#">Do not sell my info (California)</a><br><br>
-            <a class="information" href="#">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</a>
+            &nbsp;&nbsp;<a class="information" href="#">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="information" href="#">© 2022 Uber Technologies Inc.</a>
         </section>
     </div>
 </footer>
-</html> 
+    </body>
+</html>
+
 
