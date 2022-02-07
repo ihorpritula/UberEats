@@ -1,0 +1,45 @@
+.input{
+    margin-top: 180px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.orders{
+    font-weight: 600;
+    line-height: 64px;
+    font-size: 52px;
+    font-stretch: expanded;
+}
+.enter{
+    outline: none;
+    text-align: start;
+    margin-top: 40px;
+    font-size: 16px;
+    border-width: 0cm;
+    /* padding: 15px 250px 15px 50px; */
+    height: 50px;
+    width: 600px;
+}
+.select{
+    margin-top: 40px;
+    font-size: 16px;
+    border-width: 0cm;
+    /* padding: 15px 30px 15px 10px; */
+    height: 50px;
+    width: 192px;
+}
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    /* padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+.recent{
+    margin-top: 25px;
+}
